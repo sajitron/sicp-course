@@ -1,7 +1,2 @@
-(define (square x) (* x x))
-
-(square 8)
-
-(define (sum-of-squares x y) (+ (square x) (square y)))
-
-(sum-of-squares 3 4)
+(/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5)))))
+   (* 3 (- 6 2) (- 2 7)))
